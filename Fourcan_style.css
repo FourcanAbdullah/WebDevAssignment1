@@ -1,0 +1,109 @@
+/*style sheet
+
+*/
+/* background image for whole page*/
+.bod{
+    background-image: url(images/background2.jpg);
+}
+/* Background image for favorites section*/
+.master{
+
+  border-radius: 5px;
+  background-color: white;
+  background-image: url(images/masterb2.jpg);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*specifications for the color portion of the favorites*/
+.color_sec{
+  text-align: center;
+  align-content: center;
+  margin-right: auto;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+/*for blue image only*/
+.blue{
+  border-style: hidden;
+  align-content: center;
+  height: 200px;
+  border-radius: 5px;
+}
+/*For cat section*/
+.cat_sec{
+  text-align: center;
+  align-content: center;
+  margin-right: auto;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding-right: 30px;
+}
+/*for cat picture*/
+.cat{
+  border-radius: 5px;
+}
+/*for the number section only*/
+.four_sec{
+  text-align: center;
+  align-content: center;
+  margin-right: auto;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+}
+/*for number image only*/
+.four{
+  height: 200px;
+}
+/*only for header1 text*/
+h1 {
+  text-shadow: 1px 1px 10px white;
+  color:white;
+  text-align: center;
+
+}
+/*for all text in <p>*/
+p{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+
+  font-size: 20px;
+  border-radius: 6px;
+  width: 30%;
+}
+/*based from w3schools tutorial on how to make a navigation bar*/
+ul {
+  background-color: #3F3F3F;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  border-right:1px solid #bbb;
+  float: left;
+
+}
+/*last value doesnt have a right border*/
+li:last-child {
+  border-right: none;
+}
+/*edits the link color*/
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*if mouse hover over element turn black*/
+li a:hover {
+  background-color: black;
+}
